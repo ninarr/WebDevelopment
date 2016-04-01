@@ -1,7 +1,7 @@
 body {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif; 
-  font-size: 14px;
-  margin: 4px;
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 12px;
+  margin: 5px;
 }
 
 * {
@@ -11,29 +11,30 @@ body {
 }
 
 div {
-  margin-bottom: 20px;
-  height: 150px;
+  margin-bottom: 10px;
+  height: 160px;
+  position: relative;
 }
 
 h1 {
   font-size: 1.75em;
   text-align: center;
-  margin: 20px;
+  margin: 10px;
 }
 
 h2 {
   font-size: 1.25em;
-  float: right;
-  width: 90px;
-  height: 35px;
   text-align: center;
-  padding: 4px 8px 4px 8px;
+  float: right;
+  width: 80px;
+  height: 30px;
+  padding: 5px 10px 5px 10px;
 }
 
 p {
-  margin: 8px;
-  clear: both;
   font-style: bold;
+  margin: 10px;
+  clear: both;
 }
 
 .row {
@@ -42,21 +43,22 @@ p {
 
 .container {
 	border: 1px solid black;
-	margin: 0.5%;
+	margin: 0.5em;
 	background-color: gray;
-	overflow: auto;
 }
 
-.menu1 {
+.section1 {
   background-color: #ffe6e6;
   border: 1px solid black;
 }
-.menu2 {
+
+.section2 {
   background-color: #cc0000;
   border: 1px solid black;
   color:#ffffff;
 }
-.menu3 {
+
+.section3 {
   background-color: #ffffcc;
   border: 1px solid black;
 }
@@ -66,7 +68,6 @@ p {
   .sec-lg-4, .sec-lg-6, .sec-lg-12 {
 	  float: left;
   } 
- 
   .sec-lg-4 {
   	width: 33.33%;
   }
@@ -83,7 +84,6 @@ p {
 .sec-md-4, .sec-md-6, .sec-md-12 {
 	float: left;
 	} 
-  
   .sec-md-4 {
   	width: 33.33%;
   }
@@ -100,7 +100,6 @@ p {
   .sec-sm-4, .sec-sm-6, .sec-sm-12 {
 	  float: left;
   } 
- 
   .sec-sm-4 {
   	width: 33.33%;
   }
