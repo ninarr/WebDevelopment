@@ -24,11 +24,8 @@ body {
   margin-top: -40px;
 }
 
-
-
 #nav-list {
   background-color: #ffffff;
-  margin-top: 10px;
   border: none;
 }
 
@@ -37,10 +34,29 @@ body {
   border: solid black 1px;
   color: #000000;
   background-color: #ffffff;
+  margin-top: -7px;
 }
 
 #nav-list a:hover {
   background: #e7e7e7;
 }
   
+section {
+	border: 1px solid black;
+	margin: 0.5em;
+	background-color: #e7e7e7;
+	padding: 0px 10px 10px 10px;
+}
 
+p.visible-xs{
+	text-align: center;
+}
+
+
+/********** Mobile view **********/
+@media (max-width: 768px) {
+  #menu-collapse {
+  	background-color: #ffffff;
+  	border: none;
+  }
+}
