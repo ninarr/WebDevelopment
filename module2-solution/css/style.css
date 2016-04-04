@@ -26,6 +26,7 @@ h2 {
 }
 
 p {
+  padding-top: 5px;
   font-weight: bold;
   margin: 10px;
   clear: both;
