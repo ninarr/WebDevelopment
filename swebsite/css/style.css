@@ -1,0 +1,76 @@
+body {
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #66cc99;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/** HEADER **/
+header{
+  background-color: #ffffff;
+  padding-top: 18px;
+  height: 79px;
+  width: 100%;
+  }
+
+#logo-svg {
+  background: url(../images/logo.svg) no-repeat;
+  margin:auto;
+  width: 60px;
+  height: 43px;
+
+}
+
+section{
+ 	text-align: center;
+ } 
+
+h1{
+	padding-top: 51px;
+	padding-bottom: 26PX;
+	font-weight: bold;
+	font-size: 48px;
+ }
+/** HEADER **/
+.btn {
+	color:#ffffff;
+	font-size:24px;
+	font-weight: bold;
+}
+
+#card .row {
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.15);
+}
+
+.card-text{
+	text-align: center;
+	width: 220px;
+	height: 62px;
+	font-weight: normal;
+  font-size: 22px;
+  color:#000;
+  background-color: #ffffff;
+}
+
+/**
+	color:#ffffff;
+	font-size:22px;
+	font-weight: bold;
+
+**/
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+
+}
