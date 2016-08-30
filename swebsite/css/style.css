@@ -41,8 +41,8 @@ section{
 
 #main-content {
   padding-top: 30px; 
-  margin-left: 220px;
-  width: 75%;
+  display: flex;
+  justify-content: center;
 }
 
 
